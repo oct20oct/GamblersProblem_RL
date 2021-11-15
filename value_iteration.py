@@ -102,7 +102,7 @@ def get_policy(max_iteration=100,win_prob=0.75):
     return policy
 
 
-policy = get_policy(max_iteration=10, win_prob=0.75)
+policy = get_policy(max_iteration=100, win_prob=0.75)
 
 plt.scatter(states, policy[:99])
 plt.xlabel('Capital')
